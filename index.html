@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>포켓몬도감만들기</title>
+    <title>YOUR FACE </title>
     <link rel="stylesheet" href="style.css">
 </head>
  
 <body>
-    <h1>나만의 포켓몬도감만들기</h1>
-    <p>피카츄, 파이리, 꼬부기를 구별해서 이에 대한 설명을 보여주는 웹 앱</p>
-    <button type="button" onclick="init()">Start</button>
-    <button type="button" onclick="predict()">Predict</button>
+    <h1>닮은 연예인 찾기 </h1>
+    <p>닮은 연예인 찾는 시작</p>
+    <button type="button" onclick="init()">시작하기 </button>
+    <button type="button" onclick="predict()">확인해보기</button>
     <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <div class="file-upload">
         <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add
@@ -89,6 +89,7 @@
             }
             else{
                 labelContainer.childNodes[0].innerHTML = "모르겠습니다."
+                labelContainer.childNodes[1].innerHTML = "입력되지 않음."
             }
             // for (let i = 0; i < maxPredictions; i++) {
             //     const classPrediction =
